@@ -8,7 +8,7 @@ The plugin accepts RSS links (for self-hosted Libraries) and Sketch Cloud links 
 
 ## Installation
 
-- Download [the latest version](/bomberstudios/install-library-bundle/releases/latest/download/install-library-bundle.sketchplugin.zip) and double click it to install it
+- Download [the latest version](https://github.com/bomberstudios/install-library-bundle/releases/latest/download/install-library-bundle.sketchplugin.zip) and double click it to install it
 
 ## Sample Libraries
 
