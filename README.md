@@ -6,6 +6,10 @@ With this plugin, you'll still need to send a bunch of links, but at least you o
 
 The plugin accepts RSS links (for self-hosted Libraries) and Sketch Cloud links (for Libraries shared using Sketch Cloud)
 
+## Installation
+
+- Download [the latest version](/bomberstudios/install-library-bundle/releases/latest/download/install-library-bundle.sketchplugin.zip) and double click it to install it
+
 ## Sample Libraries
 
 If you want to try the plugin, but don't have any Shared Libraries at hand, try pasting this into the plugin's input to install a few of the Libraries we list at https://sketch.com/libraries/:
