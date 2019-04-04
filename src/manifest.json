@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Install Library Bundle…",
+      "identifier": "install-library-bundle.my-command-identifier",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "install-library-bundle",
+    "isRoot": true,
+    "items": [
+      "install-library-bundle.my-command-identifier"
+    ]
+  }
+}

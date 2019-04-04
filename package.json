@@ -1,0 +1,27 @@
+{
+  "name": "install-library-bundle",
+  "description": "Installs a bunch of shared Sketch Libraries at once, because life is too short for clicking links.",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "Install Library Bundle",
+    "manifest": "src/manifest.json",
+    "main": "install-library-bundle.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11"
+  },
+  "author": "Ale Muñoz <bomberstudios@gmail.com>",
+  "repository": "https://github.com/bomberstudios/install-library-bundle.git"
+}
