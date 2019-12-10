@@ -20,7 +20,8 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.5.11"
+    "@skpm/builder": "^0.5.11",
+    "serialize-javascript": "^2.1.2"
   },
   "author": "Ale Muñoz <bomberstudios@gmail.com>",
   "repository": "https://github.com/bomberstudios/install-library-bundle.git"
